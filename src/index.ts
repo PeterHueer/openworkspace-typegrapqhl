@@ -21,7 +21,6 @@ type Recipe {
 # clients can execute, along with the return type for each. In this
 # case, the "recipes" query returns an array of zero or more Recipes (defined above).
 type Query {
-    books: [Book]
     recipes: [Recipe!]! 
 }
 `;
